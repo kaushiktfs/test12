@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="handlers\" />
+    <Folder Include="Resources\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chubb.Studio.Interfaces.PolicyRenewal\Chubb.Studio.Interfaces.PolicyRenewal.csproj" />
+    <ProjectReference Include="..\Chubb.Studio.Models.PolicyRenewal\Chubb.Studio.Models.PolicyRenewal.csproj" />
+    <ProjectReference Include="..\Chubb.Studio.Repositories.PolicyRenewal\Chubb.Studio.Repositories.PolicyRenewal.csproj" />
+  </ItemGroup>
+
+</Project>

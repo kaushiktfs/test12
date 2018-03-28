@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chubb.Studio.Interfaces.PolicyRenewal\Chubb.Studio.Interfaces.PolicyRenewal.csproj" />
+    <ProjectReference Include="..\Chubb.Studio.Models.PolicyRenewal\Chubb.Studio.Models.PolicyRenewal.csproj" />
+  </ItemGroup>
+
+</Project>
